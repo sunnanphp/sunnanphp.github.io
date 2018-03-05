@@ -116,17 +116,6 @@ categories: tag标签的分类，如：categories: 随笔
 
 我写文章使用的是 Sublime Text3 编辑器，如果你对 markdown 语法不熟悉的话，可以看看[作业部落的教程](https://www.zybuluo.com/) 
 
-
-### 使用我的博客模板
-
-虽然博客部署完成了，你会发现博客太简单不是你想要的，如果你喜欢我的模板的话，可以使用我的模板。
-
-首先你要获取的我博客，[Github项目地址](https://github.com/leopardpan/leopardpan.github.io.git)，你可以直接[点击下载博客](https://github.com/leopardpan/leopardpan.github.io/archive/master.zip)，进去leopardpan.github.io/ 目录下， 使用命令部署本地服务 
-
-```
-$ jekyll server   
-```
-
 ### 如果你本机没配置过任何jekyll的环境，可能会报错
 
 ```
