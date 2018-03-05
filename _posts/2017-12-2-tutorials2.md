@@ -43,3 +43,5 @@ Upgrade|向服务器指定某种传输协议以便服务器进行转换（如果
 User-Agent|User-Agent的内容包含发出请求的用户信息|User-Agent: Mozilla/5.0 (Linux; X11)
 Via|通知中间网关或代理服务器地址，通信协议|Via: 1.0 fred, 1.1 nowhere.com (Apache/1.1)
 Warning|关于消息实体的警告信息|Warn: 199 Miscellaneous warning
+
+### Requests部分
