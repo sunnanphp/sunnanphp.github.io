@@ -1,5 +1,5 @@
 $(document).ready(function() {
-  var json = {'name':'test','name':'test1','name':'test2'};
+  var json = ['test','test1','test2'];
   for(var key in json)
   {
     alert(json[key]);
