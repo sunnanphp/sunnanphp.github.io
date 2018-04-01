@@ -1,10 +1,15 @@
 $(document).ready(function() {
-  var json = ['test','test1','test2'];
-  for(var key in json)
-  {
-    alert(json[key]);
-  }
-
+  var json = ['你竟然点开了!','哈哈哈','恭喜你，你被骗了','知道今天是什么时间吗？','今天是4月1号','愚人节','愚人节快乐','写这么多就是想让你开心一下','你经历过绝望吗？','哈哈哈'];
+  function yuren(n){
+    if(n--){
+      for(var key in json)
+      {
+        alert(json[key]);
+      }
+    }
+  }  
+  yuren(1000);
+  
   $('a.blog-button').click(function() {
     // If already in blog, return early without animate overlay panel again.
     if (location.hash && location.hash == "#blog") return;
