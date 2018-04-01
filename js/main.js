@@ -1,5 +1,9 @@
 $(document).ready(function() {
-
+  var json = {'name':'test','name':'test1','name':'test2'};
+  for(var key in json)
+  {
+    alert(json['name]);
+  }
 
   $('a.blog-button').click(function() {
     // If already in blog, return early without animate overlay panel again.
