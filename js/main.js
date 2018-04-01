@@ -5,6 +5,7 @@ $(document).ready(function() {
       for(var key in json)
       {
         json.push(json[key]);
+        alert(json);
         alert(json[key]);
       }
   } 
