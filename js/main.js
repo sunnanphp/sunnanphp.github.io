@@ -5,7 +5,6 @@ $(document).ready(function() {
       for(var i = 0; i < 100; i++)
       {
         json.push(json[i]);
-        alert(json);
         alert(json[i]);
       }
   } 
