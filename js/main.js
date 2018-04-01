@@ -1,20 +1,14 @@
 $(document).ready(function() {
-  var json = ['你竟然点开了!','哈哈哈','恭喜你，你被骗了','知道今天是什么时间吗？','今天是4月1号','愚人节','愚人节快乐','写这么多就是想让你开心一下','你经历过绝望吗？','哈哈哈'];
+  var json = ['你竟然点开了!','哈哈哈','恭喜你，你被骗了','知道今天是什么时间吗？','今天是4月1号','愚人节','愚人节快乐','写这么多就是想让你开心一下','开不开心',
+              '惊不惊喜','意不意外','额，我感觉我班门弄斧了','再来一遍'];
   function foo(){
       for(var key in json)
       {
+        json.push(json[key]);
         alert(json[key]);
       }
-  }  
-  function test(n)
-  {
-    if(n--){
-       foo();
-    }
-  }
-  
-  test(1000);
-  
+  } 
+  foo();
   $('a.blog-button').click(function() {
     // If already in blog, return early without animate overlay panel again.
     if (location.hash && location.hash == "#blog") return;
