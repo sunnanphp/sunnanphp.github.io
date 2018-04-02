@@ -8,7 +8,7 @@ $(document).ready(function() {
         alert(json[i]);
       }
   } 
-  foo();
+  //foo();
   $('a.blog-button').click(function() {
     // If already in blog, return early without animate overlay panel again.
     if (location.hash && location.hash == "#blog") return;
